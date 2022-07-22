@@ -1,0 +1,42 @@
+.body {
+  font-size: 3em;
+  height: 1000px;
+  border: 0px;
+  background-image: url("img/astronauta22.gif");
+}
+.h1 {
+  font-size: 1em;
+  text-align: center;
+  font-family: "valentina", Times, serif;
+  font-size: 3em;
+}
+
+.div {
+  text-align: center;
+  background-image: url("img/plano\ roxo.jpg");
+}
+
+.label {
+  font-size: 1em;
+  height: 39px;
+  font-family: "valentina", Times, serif;
+  font-size: 125%;
+  color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: "valentina";
+  src: url("Best Valentina TTF") format(truetype), url("Best Valentina OTF"),
+    format(opentype);
+  font-weight: normal;
+  font-style: normal;
+
+  /*
+  Tipos de format()
+  opentype(otf)
+  truetype(ttf)
+  embedded-opentype
+  truetype-aat(Apple Advanced Typography)
+  svg
+  */
+}

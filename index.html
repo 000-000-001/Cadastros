@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>    
+    <title>Ficha de Cadastro</title>       
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/Space.ico.ico" type="image/x-icon">   
+    
+  </head>
+  <body>       
+     <form action="">
+
+      <div class="div">
+        
+
+        <h1 class="h1"> Cadastro dos Astronautas</h1>
+
+        
+          <label class="label" for="name">Nome:</label>
+          <input type="text" id="name" name="name" required="required"  />
+          <p></p>
+
+          <label class="label" for="email">Email:</label>
+          <input type="email" name="email" id="email" />   
+          <p></p>     
+
+          <label class="label" for="passaword">Passaword:</label>
+          <input type="passaword" name="passaword" id="passaword" required="required" />
+          <p></p>
+          
+          <label class="label"for="birthday">Data de Nascimento:</label>
+           <input type="date" name="birthday" id="birthday" /> -
+
+          <label class="label" for="photo">Foto:</label>
+          <input type="file" name="photo" id="photo" />
+          <p></p>
+
+          <label  class="label"for="nationality">Nacionalidade:</label>
+         <select name="nationality" id="nationality">
+          <option value="brasilian">Brasileira</option>
+         <option value="russian">Russa</option>
+         <option value="american">Americana</option>
+         <option value="mexican">Mexicano</option>
+        </select> 
+        <p class="label"> Gênero -
+       <label class="label" for="female">F</label>
+       <input type="radio"name="gender" id="female" value="female">
+       <label class="label" for="male">M</label>
+       <input type="radio"name="gender" id="male" value="male"> </p> 
+       <p class="label">Suas principais qualidades:</p>
+       <label class="label" for="int">Inteligência</label>
+       <input type="checkbox" name="int" id="int">
+       <label class="label" for="res">Resiliência</label>
+       <input type="checkbox" name="res" id="res">
+       <label class="label" for="physic">Preparo fisíco</label>
+       <input type="checkbox" name="physic" id="physic">
+       <label class="label" for="edu">Educação</label>
+       <input type="checkbox" name="edu" id="edu">
+       <p></p>
+       <textarea class="label" name="descripition" id="descripition" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>       
+       <p></p>
+          
+       <input class="label" type="submit" value="Criar">
+       <p></p>
+       
+       <audio preload="auto" autoplay controls>
+        <source src="midia/A Walk Into Space - Topher Mohr and Alex Elena.mp3" type="audio/mpeg" >
+      </audio>
+    </div>    
+   
+  </body>
+  
+
+  
+ 
+</html>
